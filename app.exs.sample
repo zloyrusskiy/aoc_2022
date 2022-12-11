@@ -1,0 +1,16 @@
+defmodule Solution do
+  def part1(input) do
+    :not_implemented
+  end
+
+  def part2(input) do
+    :not_implemented
+  end
+end
+
+raw_input =
+  IO.read(:stdio, :all)
+  |> String.split("\n")
+
+IO.inspect(Solution.part1(raw_input))
+IO.inspect(Solution.part2(raw_input))
